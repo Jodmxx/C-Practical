@@ -12,8 +12,8 @@ if(b==0)
 sum=sum+i;
 }
 if(sum==a)
-printf("The Number is Perfect %d",sum);
+printf("The given number is Perfect %d",sum);
 else
-printf("The number is not perfect %d ",sum);
+printf("The given number is not perfect %d ",sum);
 return(0);
 }
