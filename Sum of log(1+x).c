@@ -16,7 +16,7 @@ term=term*(-i)*x/(i+1);
 sum=sum+term;
 i=i+1;
 }
-printf("Your required sum is = %f",sum);
+printf("Your required sum is = %0.4f ,which is correct upto 4 decimal ",sum);
 }
 else
 printf("The series is not Convergent");
