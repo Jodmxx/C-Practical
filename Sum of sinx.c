@@ -15,6 +15,6 @@ term=term*((-1)*x*x)/(2*i*(2*i+1));
 sum=term+sum;
 i=i+1;
 } while(fabs(term)>0.000001);
-printf("The sum of sin(%f)is %f ,which is correct upto 4 decimal",b,sum);
+printf("The sum of sin(%f)is %4.4f ,which is correct upto 4 decimal",b,sum);
 return(0);
 }
