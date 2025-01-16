@@ -8,6 +8,6 @@ printf("Enter the values of n:");
 scanf("%d", &n);
 for(i=0; i<=n; i++){
 sum=sum+i;}
-printf("\n The Sum of n number is '%d'",sum);
+printf("\n The Sum of n number is= %d",sum);
 return(0);
 }
