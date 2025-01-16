@@ -2,10 +2,9 @@
 #include<conio.h>
 int main()
 {
-int a,b,c,sum=0;
+int a,c,sum=0;
 printf("Enter the Value of a Number:");
 scanf("%d", &a);
-b=a;
 while(a>0)
 {
 c=a%10;
