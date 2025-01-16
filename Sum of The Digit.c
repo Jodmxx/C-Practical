@@ -12,6 +12,6 @@ c=a%10;
 sum=sum+c;
 a=a/10;
 }
-printf("The Sum of The Digits is %d",sum);
+printf("The Sum of The Digits of the given number is %d",sum);
 return(0);
 }
