@@ -5,7 +5,7 @@ int main()
 {
 int i=1;
 float x,b,term,sum;
-printf("Enter the Value of x:-");
+printf("Enter the Value of x: ");
 scanf("%f", &b);
 x=b*22/(7*180);
 sum=x;
