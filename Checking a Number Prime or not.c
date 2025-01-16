@@ -7,9 +7,9 @@ printf("Enter the Value of n:");
 scanf("%d", &n);
 for(i=2;i<=n/2;i++){
 if(n%i==0)
-printf("The Number is not prime");
+printf("The given number is not prime");
 else
-printf("The number is prime");
+printf("The Number is prime");
 return(0);}
 
 }
