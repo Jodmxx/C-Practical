@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+int n,i,j;
+float x[20],s;
+printf("Enter any number: ");
+scanf("%d", &n);
+for(i=1;i<=n;i++)
+{
+printf("Enter the value x[%d]",i);
+scanf("%f",&x[i]);
+}
+for(i=1;i<=n;i++)
+{
+for(j=1;j<=n;j++)
+{
+if x[i]>x[j];
+{
+s=x[i];
+x[i]=x[j];
+x[j]=s
+
+}
+}
+}
+printf("The number");
+
+return(0);
+}
