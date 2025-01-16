@@ -4,7 +4,7 @@
 int main()
 {
 float a,b,c,disc,r1,r2,A,B;
-printf("\nEnter the coefficient of Quadric Equation ax^2+bx+c :");
+printf("\nEnter the coefficient a,b & c of Quadric Equation ax^2+bx+c=0 :");
 scanf("%f%f%f",&a,&b,&c);
 disc=b*b-4*a*c;
 if(a==0)
