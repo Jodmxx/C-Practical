@@ -12,7 +12,7 @@ term=term*x/i;
 sum=term+sum;
 i=i+1;
 } while(fabs(term)>0.000001);
-printf("The sum is %f",sum);
+printf("The sum is %8.4f, which is correct upto 4 decimal place",sum);
 
 return(0);
 }
