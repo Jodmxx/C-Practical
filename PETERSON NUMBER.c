@@ -18,8 +18,8 @@ a=a/10;
 sum=sum+fact;
 }
 if(sum==n)
-printf("The number is PETERSON");
+printf("The given number is PETERSON");
 else
-printf("The number is not PERERSON");
+printf("The given number is not PERERSON");
 return(0);
 }
