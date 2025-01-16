@@ -2,14 +2,19 @@
 #include<conio.h>
 int main()
 {
-int n,i;
+int n,r,i,frag=0;
 printf("Enter the Value of n:");
 scanf("%d", &n);
-for(i=2;i<=n/2;i++){
-if(n%i==0)
+for(i=2;i<=n/2;i++)
+{
+r=n%i;
+if(r==0)
+frag=1;
+}
+if(frag==1)
 printf("The given number is not prime");
 else
-printf("The Number is prime");
-return(0);}
+printf("The given number is prime");
+return(0);
 
 }
