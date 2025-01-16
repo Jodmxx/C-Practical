@@ -5,7 +5,7 @@ int main()
 {
 int n,i,j;
 float x[20],s;
-printf("Enter any number: ");
+printf("Enter the number you want to sort: ");
 scanf("%d", &n);
 for(i=1;i<=n;i++)
 {
